@@ -3,5 +3,5 @@ type: experiment
 enabled: false
 flag: snakeGame.release
 value:
-  - percentage: 50
+  - percentage: 60
     option: true
