@@ -1,0 +1,12 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+description: Test Flag Descrption
+enabled: false
+flag: Test Flag
+conditions:
+  - property:
+      name: rox.app_release
+      operator: semver-eq
+      operand: '1'
+    value: false
+value: false
