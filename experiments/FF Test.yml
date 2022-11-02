@@ -7,6 +7,6 @@ conditions:
   - property:
       name: rox.app_release
       operator: semver-eq
-      operand: '1'
+      operand: '100'
     value: false
 value: false
