@@ -7,3 +7,16 @@ availableValues:
   - insane
   - fast
   - normal
+conditions:
+  - dependency:
+      flag: FF Test
+      value: 'false'
+    value:
+      - percentage: 25
+        option: slow
+      - percentage: 25
+        option: insane
+      - percentage: 25
+        option: fast
+      - percentage: 25
+        option: normal
