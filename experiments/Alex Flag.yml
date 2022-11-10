@@ -5,6 +5,6 @@ flag: Alex Flag
 conditions:
   - dependency:
       flag: TitleColors
-      value: Yellow
+      value: Blue
     value: false
 value: false
